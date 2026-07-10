@@ -96,7 +96,7 @@ header nav .nav-left .register-login-btn a{
     font-size: 1em;
 }
 
-.product-sec-new .shoping-card{
+.shoping-card{
     text-align: center;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px 15px;
@@ -282,6 +282,23 @@ header nav .nav-left .register-login-btn a{
     width: 80%;
 }
 
+/* owl slider */
+
+.dragble-list img{
+    width: 70% !important;
+    margin: auto;
+}
 .owl-stage-outer{
     direction: ltr;
+}
+
+.dragble-list .title{
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 4px solid #e74c3c;
 }
